@@ -1,0 +1,336 @@
+@import url("https://fonts.googleapis.com/css2?family=Aleo:wght@300;400&display=swap");
+body {
+  background-color: #e3e3e1;
+  margin: 0px;
+}
+body header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+body header .button-header {
+  margin-top: 1em;
+  width: 20%;
+  display: flex;
+  height: 10%;
+  border: solid 1px;
+  font-family: "Aleo", serif;
+  box-shadow: 2px 2px 5px #3a3838;
+  justify-content: center;
+  text-decoration: none;
+  color: black;
+}
+body header .button-header:hover {
+  font-size: 120%;
+}
+body .header-box {
+  display: flex;
+  padding-bottom: 2em;
+}
+body .header-box .parent-box {
+  position: relative;
+}
+body .header-box .parent-box .header-img {
+  width: 100%;
+}
+body .header-box .child-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 10%;
+  right: 50%;
+  width: 0%;
+}
+body .header-box .child-box .button-header {
+  background-color: transparent;
+  color: #e3e3e1;
+  font-family: aleo;
+  width: 15vw;
+  height: 5vw;
+  border-radius: 5px;
+  border: solid 0.5px #791315;
+  font-size: 2vw;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .header-box .box-logo img {
+  width: 15vw;
+}
+body .header-box .box-title .title {
+  font-size: 5vw;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .main-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: solid 1px;
+  border-radius: 20px;
+  width: 60%;
+  margin-bottom: 1em;
+}
+main .main-box .main-title {
+  display: flex;
+  justify-content: center;
+}
+main .main-box .aboutme {
+  display: flex;
+  flex-direction: column;
+}
+main .main-box .aboutme .me-photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .main-box .aboutme .me-photo img {
+  width: 40%;
+  border-radius: 150px;
+}
+main .main-box .aboutme .about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main .main-box .aboutme .about p {
+  width: 50%;
+}
+main .second-main-box {
+  width: 60%;
+  padding-bottom: 5em;
+  border: solid 1px;
+  border-radius: 20px;
+}
+main .second-main-box .gallery-box {
+  display: flex;
+  justify-content: center;
+}
+main .second-main-box .box-img {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1em;
+  justify-content: space-around;
+}
+main .second-main-box .box-img .gallery {
+  width: 10em;
+  padding-bottom: 0.5em;
+  transition: transform 0.2s;
+}
+main .second-main-box .box-img .gallery:hover {
+  transform: scale(2);
+  padding-bottom: 0;
+  border: solid;
+}
+
+.socialmedia-box {
+  display: flex;
+  flex-direction: column;
+}
+.socialmedia-box .first-box {
+  background-color: transparent;
+  height: 25em;
+  width: 25em;
+  display: flex;
+  flex-direction: column;
+  border: solid 1px;
+  margin: 2em;
+  box-shadow: 1px 3px 30px;
+}
+.socialmedia-box .first-box .text {
+  display: flex;
+  justify-content: right;
+  padding-right: 1em;
+}
+.socialmedia-box .first-box .text img {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  width: 2em;
+  height: 2em;
+}
+.socialmedia-box .first-box .img {
+  display: flex;
+  justify-content: center;
+}
+.socialmedia-box .first-box .img img {
+  width: 20em;
+  height: 15.3em;
+  border-radius: 40px;
+}
+.socialmedia-box .first-box .user {
+  display: flex;
+  justify-content: center;
+}
+.socialmedia-box .first-box .user a {
+  text-decoration: none;
+  color: black;
+}
+.socialmedia-box .first-box .user a:hover {
+  font-size: 120%;
+}
+.socialmedia-box .second-box {
+  background-color: transparent;
+  height: 25em;
+  width: 25em;
+  display: flex;
+  flex-direction: column;
+  border: solid 1px;
+  margin: 2em;
+  margin-left: 50em;
+  box-shadow: 1px 3px 30px;
+}
+.socialmedia-box .second-box .text {
+  display: flex;
+  justify-content: right;
+  padding-right: 1em;
+}
+.socialmedia-box .second-box .text img {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  width: 3.8em;
+  height: 2em;
+}
+.socialmedia-box .second-box .img {
+  display: flex;
+  justify-content: center;
+}
+.socialmedia-box .second-box .img img {
+  width: 12em;
+  height: 17em;
+  border-radius: 20px;
+}
+.socialmedia-box .second-box .user {
+  display: flex;
+  justify-content: center;
+  padding-right: 1em;
+}
+.socialmedia-box .second-box .user a {
+  text-decoration: none;
+  color: black;
+}
+.socialmedia-box .second-box .user a:hover {
+  font-size: 120%;
+}
+.socialmedia-box .third-box {
+  background-color: transparent;
+  height: 25em;
+  width: 25em;
+  display: flex;
+  flex-direction: column;
+  border: solid 1px;
+  margin: 2em;
+  box-shadow: 1px 3px 30px;
+}
+.socialmedia-box .third-box .text {
+  display: flex;
+  justify-content: right;
+  padding-left: 1em;
+}
+.socialmedia-box .third-box .text img {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-right: 1em;
+  width: 2em;
+  height: 2em;
+}
+.socialmedia-box .third-box .img {
+  display: flex;
+  justify-content: center;
+}
+.socialmedia-box .third-box .img img {
+  width: 18em;
+  height: 15em;
+  border-radius: 20px;
+}
+.socialmedia-box .third-box .user {
+  display: flex;
+  justify-content: center;
+  padding-left: 1em;
+}
+.socialmedia-box .third-box .user a {
+  text-decoration: none;
+  color: black;
+}
+.socialmedia-box .third-box .user a:hover {
+  font-size: 120%;
+}
+
+@media (max-width: 450px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  main .main-box {
+    width: 90%;
+    margin-left: 0em;
+  }
+  main .main-box .aboutme .me-photo img {
+    width: 65%;
+  }
+  main .second-main-box {
+    width: 90%;
+    margin-left: 0em;
+  }
+  main .second-main-box .box-img .gallery {
+    width: 13em;
+  }
+  main .second-main-box .box-img .gallery:hover {
+    transform: scale(1.5);
+  }
+  .socialmedia-box {
+    display: flex;
+    flex-direction: column;
+    padding-left: 2em;
+  }
+  .socialmedia-box .first-box {
+    height: 20em;
+    width: 20em;
+    margin-left: 0px;
+  }
+  .socialmedia-box .first-box .img img {
+    width: 18em;
+    height: 11em;
+  }
+  .socialmedia-box .first-box .text img {
+    padding-top: 0.5em;
+    width: 1.5em;
+    height: 1.5em;
+  }
+  .socialmedia-box .second-box {
+    height: 20em;
+    width: 20em;
+    margin-left: 0px;
+  }
+  .socialmedia-box .second-box .img img {
+    width: 10em;
+    height: 14em;
+  }
+  .socialmedia-box .second-box .text img {
+    padding-top: 0.5em;
+    width: 3em;
+    height: 1.6em;
+  }
+  .socialmedia-box .third-box {
+    height: 20em;
+    width: 20em;
+    margin-left: 0px;
+  }
+  .socialmedia-box .third-box .img img {
+    width: 15em;
+    height: 12.5em;
+  }
+  .socialmedia-box .third-box .text img {
+    padding-top: 0.5em;
+    width: 1.5em;
+    height: 1.5em;
+  }
+}/*# sourceMappingURL=styles.css.map */
